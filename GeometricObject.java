@@ -42,5 +42,6 @@ public class GeometricObject {
     }
 
     public String toString(){
+        return "A String";
     }
 }

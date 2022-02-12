@@ -1,11 +1,19 @@
-public class Circle {
+public class Circle extends GeometricObject{
     private double radius;
 
-    public Circle(){}
+    public Circle(){
+        super();
+    }
     
-    public Circle(double radius){}
+    public Circle(double radius){
+        super();
+        setRadius(radius);
+    }
     
-    public Circle(double radius, String color, boolean filled){}
+    public Circle(double radius, String color, boolean filled){
+        super(color, filled);
+        setRadius(radius);
+    }
     
     public double getRadius() {
         return radius;
