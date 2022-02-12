@@ -23,11 +23,19 @@ public class Circle extends GeometricObject{
         this.radius = radius;
     }
     
-    public double getArea(){}
+    public double getArea(){
+        return 0;
+    }
 
-    public double getPerimeter(){}
+    public double getPerimeter(){
+        return 0;
+    }
 
-    public double getDiameter(){}
+    public double getDiameter(){
+        return 0;
+    }
 
-    public void printCircle(){}
+    public void printCircle(){
+        System.out.println("Printing Circle......");
+    }
 }

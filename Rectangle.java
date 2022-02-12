@@ -24,7 +24,11 @@ public class Rectangle {
         this.height = height;
     }
     
-    public double getArea(){}
+    public double getArea(){
+        return 0;
+    }
     
-    public double getPerimeter(){}
+    public double getPerimeter(){
+        return 0;
+    }
 }
