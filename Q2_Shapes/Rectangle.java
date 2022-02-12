@@ -7,6 +7,7 @@ public class Rectangle extends Shape{
     }
 
     public double area(){
+        System.out.println("Inside Area for Rectangle.");
         return this.getDim1() * this.getDim2();
     }
 }
