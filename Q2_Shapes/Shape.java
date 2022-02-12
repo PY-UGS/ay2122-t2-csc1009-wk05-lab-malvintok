@@ -9,7 +9,7 @@ public abstract class Shape {
         setDim2(dim2);
     }
 
-    public abstract void area();
+    public abstract double area();
 
     public double getDim1() {
         return dim1;
