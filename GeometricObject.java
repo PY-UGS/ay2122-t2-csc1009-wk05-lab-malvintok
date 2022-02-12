@@ -5,9 +5,16 @@ public class GeometricObject {
     private boolean filled;
     private Date dateCreated;
 
-    public void GeometricObject(){}
+    public GeometricObject(){
+        color = "white";
+        filled = false;
+        dateCreated = new Date();
+    }
 
-    public void GeometricObject(String color, boolean filled){
+    public GeometricObject(String color, boolean filled){
+        setColor(color);
+        setFilled(filled);
+        setDateCreated(new Date());
     }
 
     public String getColor() {
@@ -28,6 +35,10 @@ public class GeometricObject {
 
     public Date getDateCreated() {
         return dateCreated;
+    }
+
+    public void setDateCreated(Date dateCreated) {
+        this.dateCreated = dateCreated;
     }
 
     public String toString(){
