@@ -1,19 +1,29 @@
-public class Rectangle {
-    private double weight;
+public class Rectangle extends GeometricObject{
+    private double width;
     private double height;
 
-    public Rectangle(){}
-
-    public Rectangle(double width, double height){}
-
-    public Rectangle(double width, double height, String color, boolean filled){}
-
-    public double getWeight() {
-        return weight;
+    public Rectangle(){
+        super();
     }
 
-    public void setWeight(double weight) {
-        this.weight = weight;
+    public Rectangle(double width, double height){
+        super();
+        setWidth(width);
+        setHeight(height);
+    }
+
+    public Rectangle(double width, double height, String color, boolean filled){
+        super(color, filled);
+        setWidth(width);
+        setHeight(height);
+    }
+
+    public double getWidth() {
+        return width;
+    }
+
+    public void setWidth(double width) {
+        this.width = width;
     }
 
     public double getHeight() {
