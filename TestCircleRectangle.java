@@ -1,6 +1,6 @@
 public class TestCircleRectangle {
     public static void main(String[] args) {
-        Circle circle = new Circle();
+        Circle circle = new Circle(10);
         System.out.println("A circle " + circle.toString());
         System.out.println("The colour is " + circle.getColor());
         System.out.println("The radius is " + circle.getRadius());

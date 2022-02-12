@@ -1,4 +1,5 @@
 public class Circle extends GeometricObject{
+    final double PI = 3.141592654;
     private double radius;
 
     public Circle(){
@@ -24,15 +25,15 @@ public class Circle extends GeometricObject{
     }
     
     public double getArea(){
-        return 0;
+        return PI * this.radius * this.radius;
     }
 
     public double getPerimeter(){
-        return 0;
+        return 2 * PI * this.radius;
     }
 
     public double getDiameter(){
-        return 0;
+        return this.radius + this.radius;
     }
 
     public void printCircle(){

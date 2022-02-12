@@ -35,10 +35,10 @@ public class Rectangle extends GeometricObject{
     }
     
     public double getArea(){
-        return 0;
+        return this.height * this.width;
     }
     
     public double getPerimeter(){
-        return 0;
+        return 2 * (this.height + this.width);
     }
 }
